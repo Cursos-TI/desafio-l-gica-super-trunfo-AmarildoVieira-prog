@@ -4,13 +4,15 @@
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
-
-int main() {
+int main(){
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 printf("DESAFIO SUPER TRUNFO\n");
 printf("COMPARAÇÃO DAS CARTAS\n");
     
+int população,ponto;
+float area,pib;
+char estado,codigo,cidade;
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
@@ -21,6 +23,29 @@ printf("COMPARAÇÃO DAS CARTAS\n");
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
+
+printf("Digite o nome do estado:\n");
+scanf("%s",estado);
+
+printf("Digite o código da carta:\n");
+scanf("%s",codigo);
+
+printf("Digite o nome da cidade:\n");
+scanf("%s",cidade);
+
+printf("Digite a poopulação:\n");
+scanf("%d",&populacão);
+
+printf("Digite a área:\n");
+scanf("%f",&area);
+
+printf("Digite o pib:\n");
+scanf("%f",&pib);
+
+printf("Digite a quantidade de pontos turisticos:\n");
+scanf("%d",&ponto);
+
+
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
