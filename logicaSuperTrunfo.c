@@ -8,7 +8,8 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-
+printf("DESAFIO SUPER TRUNFO\n");
+printf("COMPARAÇÃO DAS CARTAS\n");
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
